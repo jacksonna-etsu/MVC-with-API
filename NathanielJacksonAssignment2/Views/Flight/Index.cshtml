@@ -1,0 +1,56 @@
+﻿@model IEnumerable<NathanielJacksonAssignment2.Models.Entities.Flight>
+
+
+<h3>Currently Scheduled Flights</h3>
+<p>
+    <a asp-action="Create" class="btn btn-primary _user_button-pad">Schedule a flight</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Flight #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArrivalTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrivalTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureTime)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> &nbsp
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a> &nbsp
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a> &nbsp
+                <a asp-action="Create" asp-controller="User" asp-route-id="@item.Id" class="btn btn-primary">Add Passenger</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

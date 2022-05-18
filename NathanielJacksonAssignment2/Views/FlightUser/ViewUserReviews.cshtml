@@ -1,0 +1,31 @@
+﻿@model IEnumerable<NathanielJacksonAssignment2.Models.Entities.FlightUser>
+
+@{
+    var user = (NathanielJacksonAssignment2.Models.Entities.User?)ViewData["User"];
+}
+
+<form id="userIdTransfer">
+    <input type="hidden" name="userId" value="@user!.Id" />
+</form>
+
+<h4>Reviews written by @user.UserName</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FlightID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Review)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+@section Scripts{
+    <script defer src="~/js/FlightUserViewUserReviews.js"></script>
+}
+

@@ -1,0 +1,30 @@
+﻿@model NathanielJacksonAssignment2.Models.Entities.Flight
+
+<h4>Flight #@Model.Id</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Review">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id"/>
+            <input type="hidden" asp-for="Destination"/>
+            <input type="hidden" asp-for="StartLocation"/>
+            <input type="hidden" asp-for="ArrivalTime"/>
+            <input type="hidden" asp-for="DepartureTime"/>
+            <div class="form-group">
+                <!--<label asp-for="Review" class="control-label"></label>-->
+                <!--https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box-->
+                <!--https://www.w3schools.com/css/css_text_align.asp-->
+                <!--https://www.w3schools.com/tags/tag_textarea.asp-->
+                <!--<textarea class="_userCommentBox" asp-for="Review"></textarea>-->
+                <!--<span asp-validation-for="Review" class="text-danger"></span>-->
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-danger">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

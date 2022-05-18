@@ -1,0 +1,25 @@
+﻿@model IEnumerable<NathanielJacksonAssignment2.Models.Entities.User>
+
+<h4>User Reviews</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+@section Scripts{
+    <script defer src="~/js/FlightUserViewUsers.js"></script>
+}

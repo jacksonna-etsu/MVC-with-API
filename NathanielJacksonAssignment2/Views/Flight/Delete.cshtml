@@ -1,0 +1,44 @@
+﻿@model NathanielJacksonAssignment2.Models.Entities.Flight
+
+<h3>Are you sure you want to delete this flight?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Flight #
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Destination)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Destination)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StartLocation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StartLocation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ArrivalTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ArrivalTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DepartureTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DepartureTime)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input asp-for="Id" type="hidden"/>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-primary">Cancel</a>
+    </form>
+</div>

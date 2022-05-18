@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NathanielJacksonAssignment2
+build_property.RootNamespace = NathanielJacksonAssignment2
+build_property.ProjectDir = C:\Users\nmtnj\Desktop\Advanced Web\NathanielJacksonAssignment4\NathanielJacksonAssignment2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nmtnj\Desktop\Advanced Web\NathanielJacksonAssignment4\NathanielJacksonAssignment2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxSZW1vdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/UpdateFlightClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxVcGRhdGVGbGlnaHRDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/UpdateFlightReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxVcGRhdGVGbGlnaHRSZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/ViewUserReviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxWaWV3VXNlclJldmlld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/FlightUser/ViewUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VXNlclxWaWV3VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Flight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Flight/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Flight/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Flight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Flight/Review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XFJldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Flight/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nmtnj/Desktop/Advanced Web/NathanielJacksonAssignment4/NathanielJacksonAssignment2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ug8llxgyju

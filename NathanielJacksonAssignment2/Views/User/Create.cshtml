@@ -1,0 +1,42 @@
+﻿@model IEnumerable<NathanielJacksonAssignment2.Models.Entities.User>
+
+@{
+    var flight = (NathanielJacksonAssignment2.Models.Entities.Flight?)ViewData["Flight"];
+}
+
+<h4>Select a user to add to flight #@flight.Id</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                 <a asp-action="Create" asp-controller="FlightUser" asp-route-userId="@item.Id" asp-route-flightId="@flight.Id" class="btn btn-primary">Add Passenger</a>
+                 <!--start by adding flight id to asp-route-id-->
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

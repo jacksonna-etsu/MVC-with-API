@@ -1,0 +1,25 @@
+﻿@model NathanielJacksonAssignment2.Models.Entities.FlightUser
+
+<h4>Remove @Model!.User!.UserName from Flight #@Model!.Flight!.Id</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Remove" id="formDeleteFlightRegistration">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="flightUserId" value="@Model!.Id" />
+            <input type="hidden" name="flightId" value="@Model!.Flight!.Id" />
+            <div class="form-group">
+                <input type="submit" value="Remove User" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Details" asp-controller="Flight" asp-route-id="@Model!.Flight!.Id">Back to List</a>
+</div>
+
+@section Scripts {
+    <script defer src="~/js/FlightUserDelete.js"></script>
+}
+

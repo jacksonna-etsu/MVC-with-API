@@ -1,0 +1,32 @@
+﻿@model NathanielJacksonAssignment2.Models.Entities.FlightUser
+
+<h4>Review written by @Model!.User!.UserName for Flight #@Model!.Flight!.Id</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateFlightReviewSubmit" id="formUpdateFlightReview">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="flightUserId" value="@Model!.Id" />
+            <input type="hidden" name="flightId" value="@Model!.Flight!.Id" />
+            <div class="form-group">
+                <label asp-for="Review" class="control-label"></label>
+                <!--https://stackoverflow.com/questions/2125509/how-do-i-set-the-size-of-an-html-text-box-->
+                <!--https://www.w3schools.com/css/css_text_align.asp-->
+                <!--https://www.w3schools.com/tags/tag_textarea.asp-->
+                <textarea class="_userCommentBox" asp-for="Review"></textarea>
+                <span asp-validation-for="Review" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Details" asp-controller="Flight" asp-route-id="@Model!.Flight!.Id" class="btn btn-danger">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script defer src="~/js/FlightUserUpdateFlightReview.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

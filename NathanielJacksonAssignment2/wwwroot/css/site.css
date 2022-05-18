@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+._userBackground {
+    background-color: ghostwhite;
+}
+
+._mainBackground {
+    background-color: ghostwhite;
+}
+
+._userCommentBox {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    vertical-align: text-top;
+    overflow-wrap: break-word;
+}
+
+._user_button-pad {
+    margin-top: 10px;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: lightskyblue;
+}
